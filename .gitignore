@@ -1,0 +1,22 @@
+# Runtime
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Excel artefacts that are not the deliverable
+~$*.xlsx
+*.xlsx.lock
+~$*
+
+# Local scratch
+*.log
+build_log.txt
+.DS_Store
+Thumbs.db
+
+# Analysis scratch
+.ipynb_checkpoints/
+*.ipynb_checkpoints*

@@ -1,0 +1,11 @@
+# Core pipeline
+pandas==2.3.3
+numpy==2.3.4
+openpyxl==3.1.5
+
+# Workbook assembly stage. Needs Excel installed on Windows; the data
+# pipeline and the screenshots run without it.
+pywin32==311
+
+# Screenshot rendering
+matplotlib==3.10.7

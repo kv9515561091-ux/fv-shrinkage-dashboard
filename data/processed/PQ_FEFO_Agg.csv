@@ -1,0 +1,31 @@
+category,storage_zone,shift,picks_count,violations,qty_picked_kg,expiry_gap_sum,fefo_compliance_pct,avg_expiry_gap_days,dominant_failure_rule
+Root Vegetables,Ambient Ventilated,Shift C (21:00-05:00),37,20,61.11,55.3,45.95,2.76,lifo_top_of_crate / largest_batch
+Bulb & Stem,Ambient Ventilated,Shift C (21:00-05:00),203,104,2208.18,489.42,48.77,4.71,lifo_top_of_crate / largest_batch / nearest_rack_face
+Fruit,Chilled 0-4C,Shift C (21:00-05:00),45,23,81.05,94.99,48.89,4.13,lifo_top_of_crate / largest_batch / nearest_rack_face
+Fruit,Chilled 2-6C,Shift C (21:00-05:00),48,24,68.56,141.53,50.0,5.9,lifo_top_of_crate / largest_batch / nearest_rack_face
+Brinjal & Cucurbit,Chilled 2-6C,Shift C (21:00-05:00),57,27,161.03,84.22,52.63,3.12,largest_batch / lifo_top_of_crate / nearest_rack_face
+Bulb & Stem,Ambient Ventilated,Shift B (13:00-21:00),217,95,8410.58,445.14,56.22,4.69,lifo_top_of_crate / largest_batch / nearest_rack_face
+Fruit,Chilled 0-4C,Shift B (13:00-21:00),52,22,359.77,64.29,57.69,2.92,largest_batch / lifo_top_of_crate / nearest_rack_face
+Fruit,Chilled 2-6C,Shift B (13:00-21:00),53,22,267.4,125.67999999999999,58.49,5.71,lifo_top_of_crate / largest_batch / nearest_rack_face
+Bulb & Stem,Ambient Ventilated,Shift A (05:00-13:00),219,88,5286.09,428.67,59.82,4.87,lifo_top_of_crate / largest_batch / nearest_rack_face
+Brinjal & Cucurbit,Chilled 8-10C,Shift C (21:00-05:00),104,41,403.08,129.86,60.58,3.17,lifo_top_of_crate / largest_batch / nearest_rack_face
+Root Vegetables,Ambient Ventilated,Shift B (13:00-21:00),39,15,251.22,58.49,61.54,3.9,lifo_top_of_crate / largest_batch / nearest_rack_face
+Fruit,Ambient Ventilated,Shift C (21:00-05:00),102,37,279.91,135.56,63.73,3.66,lifo_top_of_crate / largest_batch / fifo_queue
+Fruit,Chilled 0-4C,Shift A (05:00-13:00),50,17,231.52,57.04,66.0,3.36,lifo_top_of_crate / largest_batch / nearest_rack_face
+Leafy Greens,Chilled 0-4C,Shift C (21:00-05:00),193,64,198.86,150.53,66.84,2.35,lifo_top_of_crate / largest_batch / nearest_rack_face
+Brinjal & Cucurbit,Ambient Ventilated,Shift C (21:00-05:00),99,31,235.62,136.86,68.69,4.41,lifo_top_of_crate / largest_batch / nearest_rack_face
+Fruit,Chilled 2-6C,Shift A (05:00-13:00),48,15,166.29,81.34,68.75,5.42,lifo_top_of_crate / nearest_rack_face / fifo_queue
+Brinjal & Cucurbit,Chilled 2-6C,Shift A (05:00-13:00),58,17,378.25,52.53,70.69,3.09,lifo_top_of_crate / largest_batch / nearest_rack_face
+Brinjal & Cucurbit,Ambient Ventilated,Shift B (13:00-21:00),96,27,887.66,132.54,71.88,4.91,lifo_top_of_crate / largest_batch / nearest_rack_face
+Fruit,Ambient Ventilated,Shift B (13:00-21:00),102,27,1070.62,91.72,73.53,3.4,lifo_top_of_crate / largest_batch / fifo_queue
+Root Vegetables,Chilled 2-6C,Shift C (21:00-05:00),144,38,299.61,130.5,73.61,3.43,lifo_top_of_crate / largest_batch / nearest_rack_face
+Fruit,Ambient Ventilated,Shift A (05:00-13:00),110,29,759.91,128.69,73.64,4.44,lifo_top_of_crate / largest_batch / nearest_rack_face
+Root Vegetables,Ambient Ventilated,Shift A (05:00-13:00),42,11,178.54,29.73,73.81,2.7,largest_batch / lifo_top_of_crate
+Brinjal & Cucurbit,Ambient Ventilated,Shift A (05:00-13:00),105,27,647.25,107.21,74.29,3.97,lifo_top_of_crate / largest_batch / fifo_queue
+Brinjal & Cucurbit,Chilled 8-10C,Shift A (05:00-13:00),109,26,1116.3,87.5,76.15,3.37,lifo_top_of_crate / largest_batch / nearest_rack_face
+Brinjal & Cucurbit,Chilled 2-6C,Shift B (13:00-21:00),60,14,608.33,44.69,76.67,3.19,lifo_top_of_crate / largest_batch / nearest_rack_face
+Root Vegetables,Chilled 2-6C,Shift A (05:00-13:00),157,35,820.91,91.17,77.71,2.6,lifo_top_of_crate / largest_batch / fifo_queue
+Root Vegetables,Chilled 2-6C,Shift B (13:00-21:00),151,33,1243.74,93.74,78.15,2.84,lifo_top_of_crate / largest_batch / nearest_rack_face
+Brinjal & Cucurbit,Chilled 8-10C,Shift B (13:00-21:00),107,22,1768.31,68.94,79.44,3.13,lifo_top_of_crate / largest_batch / nearest_rack_face
+Leafy Greens,Chilled 0-4C,Shift B (13:00-21:00),183,32,795.65,90.31,82.51,2.82,lifo_top_of_crate / largest_batch / nearest_rack_face
+Leafy Greens,Chilled 0-4C,Shift A (05:00-13:00),196,32,539.12,80.59,83.67,2.52,lifo_top_of_crate / largest_batch / nearest_rack_face

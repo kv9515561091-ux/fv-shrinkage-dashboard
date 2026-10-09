@@ -1,0 +1,23 @@
+loss_rank,sku_code,sku_name,category,perishable_class,storage_zone,qty_received_kg,qty_sold_kg,qty_shrunk_kg,shrink_pct,shrink_value_inr,avg_cost_inr_kg,mean_shelf_life_days,mean_age_at_receipt,fefo_compliance_pct,avg_expiry_gap_days,primary_driver
+1,FR001,Banana Robusta (Bunch),Fruit,Perishable,Ambient Ventilated,2301.5,1702.04,590.6999999999999,25.67,13574.29,22.98,5.46,3.33,69.29,3.69,Rotation failure (FEFO)
+2,LG001,Coriander (Dhania) Bunch,Leafy Greens,Highly Perishable,Chilled 0-4C,987.8,675.61,210.16,21.28,4121.24,19.61,1.74,0.59,77.42,2.63,Cold-chain breach
+3,LG002,Spinach (Palak) Loose,Leafy Greens,Highly Perishable,Chilled 0-4C,818.0,620.8199999999999,193.13,23.61,3514.97,18.2,1.91,0.67,76.72,1.96,Cold-chain breach
+4,LG004,Lettuce (Batting) Whole,Leafy Greens,Highly Perishable,Chilled 0-4C,417.9,313.11,104.07,24.9,3454.08,33.19,3.0,0.66,82.03,2.85,Mixed / over-purchase
+5,LG005,Coriander Root (Stalk attached),Leafy Greens,Highly Perishable,Chilled 0-4C,545.8,377.12,166.91,30.58,2937.62,17.6,3.0,0.71,74.42,2.66,Rotation failure (FEFO)
+6,LG003,Methi Leaves,Leafy Greens,Highly Perishable,Chilled 0-4C,593.1,466.74,123.67,20.85,2093.73,16.93,2.0,0.63,77.36,2.49,Mixed / over-purchase
+7,BS001,Onion (Nashik Red),Bulb & Stem,Hardy,Ambient Ventilated,7203.4,6992.889999999999,23.61,0.33,1119.59,47.42,30.0,8.24,58.29,3.99,Pilferage / shrink theft
+8,BC002,Tomato Hybrid (Trapezium),Brinjal & Cucurbit,Perishable,Chilled 8-10C,2612.0,2592.08,10.56,0.4,336.76,31.89,9.0,2.75,70.07,3.58,Pilferage / shrink theft
+9,BS002,Potato (Agra),Bulb & Stem,Hardy,Ambient Ventilated,8668.2,8079.81,25.88,0.3,321.95,12.44,35.0,8.36,45.98,4.02,Pilferage / shrink theft
+10,BC001,Brinjal Purple Long,Brinjal & Cucurbit,Perishable,Ambient Ventilated,1393.9,1382.37,6.14,0.44,153.01,24.92,7.42,3.03,72.73,3.83,Pilferage / shrink theft
+11,BC005,Capsicum Green (Shimla Mirch),Brinjal & Cucurbit,Perishable,Chilled 8-10C,986.6999999999999,979.43,3.8899999999999997,0.39,149.34,38.39,9.6,2.77,73.99,2.86,Pilferage / shrink theft
+12,FR002,Apple Shimla (Fuji),Fruit,Hardy,Chilled 0-4C,755.7,753.46,1.21,0.16,146.02,120.68,38.12,8.83,57.82,3.49,Pilferage / shrink theft
+13,BC003,Bottle Gourd (Lauki),Brinjal & Cucurbit,Perishable,Chilled 2-6C,1259.4,1217.49,6.73,0.53,134.06,19.92,6.69,3.16,66.86,3.13,Pilferage / shrink theft
+14,RV001,Carrot Ooty (Loose),Root Vegetables,Perishable,Chilled 2-6C,1102.4,1094.64,4.21,0.38,113.21,26.89,16.67,2.98,83.56,1.67,Pilferage / shrink theft
+15,FR004,Pineapple (Queen),Fruit,Perishable,Ambient Ventilated,595.6,559.75,1.6600000000000001,0.28,70.78,42.64,12.0,3.31,71.26,3.94,Pilferage / shrink theft
+16,BS004,Garlic (Girikonda),Bulb & Stem,Hardy,Ambient Ventilated,879.3000000000001,875.98,1.69,0.19,46.81,27.7,42.43,8.7,56.55,6.18,Pilferage / shrink theft
+17,RV002,Radish (Mullangi),Root Vegetables,Perishable,Chilled 2-6C,849.9,844.31,2.76,0.32,40.93,14.83,12.35,2.83,76.4,4.44,Pilferage / shrink theft
+18,BC004,Bitter Gourd (Karela),Brinjal & Cucurbit,Perishable,Ambient Ventilated,503.0,499.85,1.4,0.28,39.33,28.09,6.39,2.72,70.37,5.1,Pilferage / shrink theft
+19,FR003,Pomegranate Bhagwa,Fruit,Hardy,Chilled 2-6C,549.2,548.36,0.33999999999999997,0.06,34.46,101.36,22.74,8.53,59.06,5.71,Pilferage / shrink theft
+20,BS003,Ginger (Kerala),Bulb & Stem,Hardy,Ambient Ventilated,800.0,797.29,1.13,0.14,27.84,24.64,19.37,8.48,60.69,5.35,Pilferage / shrink theft
+21,RV003,Beetroot (Chukandar),Root Vegetables,Perishable,Chilled 2-6C,484.79999999999995,482.53,1.1,0.23,25.07,22.79,14.03,3.22,69.66,2.42,Pilferage / shrink theft
+22,RV004,Sweet Potato (Shakarkandi),Root Vegetables,Hardy,Ambient Ventilated,505.5,504.01,0.6699999999999999,0.13,16.89,25.21,28.0,7.78,61.02,3.12,Pilferage / shrink theft

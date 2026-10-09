@@ -1,0 +1,7 @@
+reason_code,reason_desc,shrink_kg,shrink_value_inr,pct_of_shrink,cumulative_pct
+SR-EXP,Shelf-life expiry (best-before crossed),1275.72,27378.96,59.8,59.8
+SR-QLT,Quality rejection at grading gate,632.2,19609.13,29.63,89.43
+SR-TMP,Cold-chain temperature breach,108.3,2564.33,5.08,94.51
+SR-PIL,Pilferage / shrink theft,70.33,2081.95,3.3,97.81
+SR-HDL,Handling damage / bruising,46.91,1241.61,2.2,100.01
+SR-OVR,"Over-purchase, no demand cover",0.0,0.0,0.0,100.01

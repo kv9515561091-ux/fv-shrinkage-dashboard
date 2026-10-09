@@ -1,0 +1,226 @@
+{
+  "kpis": {
+    "week": "2026-10-05 to 2026-10-11",
+    "centre": "Simulated Regional Processing Centre",
+    "skus": 22,
+    "batches": 197,
+    "picks": 3186,
+    "qty_received_kg": 49438.1,
+    "qty_granted_kg": 48805.9,
+    "qty_sold_kg": 45794.96,
+    "qty_shrunk_kg": 2118.75,
+    "received_value_inr": 1501208.37,
+    "shrink_value_inr": 52322.55,
+    "shrink_pct_of_received": 4.29,
+    "sell_through_pct_of_granted": 93.83,
+    "fefo_compliance_pct": 68.14,
+    "fefo_violation_pct": 31.86,
+    "mean_expiry_gap_days_on_violation": 3.85,
+    "product_in_stock_pct": 87.91,
+    "cold_chain_breach_batches": 29,
+    "rvp_window_days": 2,
+    "rvp_total_inr": 11915.61,
+    "closing_value_inr": 33978.99,
+    "rvp_as_pct_of_closing_value": 35.07,
+    "cf_observed_shrink_kg": 2118.75,
+    "cf_observed_shrink_value_inr": 52322.55,
+    "cf_observed_shrink_pct_of_received": 4.29,
+    "cf_counterfactual_shrink_kg": 1295.19,
+    "cf_counterfactual_shrink_value_inr": 34342.91,
+    "cf_counterfactual_shrink_pct_of_received": 2.62,
+    "cf_expiry_kg_observed": 1275.72,
+    "cf_expiry_kg_counterfactual": 544.2,
+    "cf_expiry_avoided_kg": 731.52,
+    "cf_pct_of_expiry_caused_by_rotation_failure": 57.34,
+    "cf_shrink_avoided_kg": 823.56,
+    "cf_shrink_value_avoided_inr": 17979.64
+  },
+  "counterfactual": {
+    "observed_shrink_kg": 2118.75,
+    "observed_shrink_value_inr": 52322.55,
+    "observed_shrink_pct_of_received": 4.29,
+    "counterfactual_shrink_kg": 1295.19,
+    "counterfactual_shrink_value_inr": 34342.91,
+    "counterfactual_shrink_pct_of_received": 2.62,
+    "expiry_kg_observed": 1275.72,
+    "expiry_kg_counterfactual": 544.2,
+    "expiry_avoided_kg": 731.52,
+    "pct_of_expiry_caused_by_rotation_failure": 57.34,
+    "shrink_avoided_kg": 823.56,
+    "shrink_value_avoided_inr": 17979.64,
+    "top_skus_expiry_avoided": [
+      {
+        "sku_code": "FR001",
+        "shr": 653.0,
+        "exp": 528.75,
+        "recv": 3244.8,
+        "shr_cf": 74.74,
+        "exp_cf": 0.0,
+        "expiry_avoided_kg": 528.75,
+        "shrink_avoided_kg": 578.26
+      },
+      {
+        "sku_code": "LG001",
+        "shr": 217.96,
+        "exp": 178.4,
+        "recv": 1264.0,
+        "shr_cf": 113.12,
+        "exp_cf": 101.87,
+        "expiry_avoided_kg": 76.53,
+        "shrink_avoided_kg": 104.84
+      },
+      {
+        "sku_code": "LG003",
+        "shr": 129.57,
+        "exp": 122.34,
+        "recv": 755.0,
+        "shr_cf": 69.91,
+        "exp_cf": 61.91,
+        "expiry_avoided_kg": 60.43,
+        "shrink_avoided_kg": 59.66
+      },
+      {
+        "sku_code": "LG005",
+        "shr": 171.51,
+        "exp": 165.17,
+        "recv": 765.9,
+        "shr_cf": 128.64,
+        "exp_cf": 122.47,
+        "expiry_avoided_kg": 42.7,
+        "shrink_avoided_kg": 42.87
+      },
+      {
+        "sku_code": "LG004",
+        "shr": 111.47,
+        "exp": 103.46,
+        "recv": 586.6,
+        "shr_cf": 99.04,
+        "exp_cf": 90.36,
+        "expiry_avoided_kg": 13.1,
+        "shrink_avoided_kg": 12.43
+      },
+      {
+        "sku_code": "LG002",
+        "shr": 196.43,
+        "exp": 177.6,
+        "recv": 928.9,
+        "shr_cf": 173.55,
+        "exp_cf": 167.59,
+        "expiry_avoided_kg": 10.01,
+        "shrink_avoided_kg": 22.88
+      }
+    ]
+  },
+  "pareto": [
+    {
+      "reason_code": "SR-EXP",
+      "reason_desc": "Shelf-life expiry (best-before crossed)",
+      "shrink_kg": 1275.72,
+      "shrink_value_inr": 27378.96,
+      "pct_of_shrink": 59.8,
+      "cumulative_pct": 59.8
+    },
+    {
+      "reason_code": "SR-QLT",
+      "reason_desc": "Quality rejection at grading gate",
+      "shrink_kg": 632.2,
+      "shrink_value_inr": 19609.13,
+      "pct_of_shrink": 29.63,
+      "cumulative_pct": 89.43
+    },
+    {
+      "reason_code": "SR-TMP",
+      "reason_desc": "Cold-chain temperature breach",
+      "shrink_kg": 108.3,
+      "shrink_value_inr": 2564.33,
+      "pct_of_shrink": 5.08,
+      "cumulative_pct": 94.51
+    },
+    {
+      "reason_code": "SR-PIL",
+      "reason_desc": "Pilferage / shrink theft",
+      "shrink_kg": 70.33,
+      "shrink_value_inr": 2081.95,
+      "pct_of_shrink": 3.3,
+      "cumulative_pct": 97.81
+    },
+    {
+      "reason_code": "SR-HDL",
+      "reason_desc": "Handling damage / bruising",
+      "shrink_kg": 46.91,
+      "shrink_value_inr": 1241.61,
+      "pct_of_shrink": 2.2,
+      "cumulative_pct": 100.01
+    },
+    {
+      "reason_code": "SR-OVR",
+      "reason_desc": "Over-purchase, no demand cover",
+      "shrink_kg": 0.0,
+      "shrink_value_inr": 0.0,
+      "pct_of_shrink": 0.0,
+      "cumulative_pct": 100.01
+    }
+  ],
+  "top_skus_expiry_avoided": [
+    {
+      "sku_code": "FR001",
+      "shr": 653.0,
+      "exp": 528.75,
+      "recv": 3244.8,
+      "shr_cf": 74.74,
+      "exp_cf": 0.0,
+      "expiry_avoided_kg": 528.75,
+      "shrink_avoided_kg": 578.26
+    },
+    {
+      "sku_code": "LG001",
+      "shr": 217.96,
+      "exp": 178.4,
+      "recv": 1264.0,
+      "shr_cf": 113.12,
+      "exp_cf": 101.87,
+      "expiry_avoided_kg": 76.53,
+      "shrink_avoided_kg": 104.84
+    },
+    {
+      "sku_code": "LG003",
+      "shr": 129.57,
+      "exp": 122.34,
+      "recv": 755.0,
+      "shr_cf": 69.91,
+      "exp_cf": 61.91,
+      "expiry_avoided_kg": 60.43,
+      "shrink_avoided_kg": 59.66
+    },
+    {
+      "sku_code": "LG005",
+      "shr": 171.51,
+      "exp": 165.17,
+      "recv": 765.9,
+      "shr_cf": 128.64,
+      "exp_cf": 122.47,
+      "expiry_avoided_kg": 42.7,
+      "shrink_avoided_kg": 42.87
+    },
+    {
+      "sku_code": "LG004",
+      "shr": 111.47,
+      "exp": 103.46,
+      "recv": 586.6,
+      "shr_cf": 99.04,
+      "exp_cf": 90.36,
+      "expiry_avoided_kg": 13.1,
+      "shrink_avoided_kg": 12.43
+    },
+    {
+      "sku_code": "LG002",
+      "shr": 196.43,
+      "exp": 177.6,
+      "recv": 928.9,
+      "shr_cf": 173.55,
+      "exp_cf": 167.59,
+      "expiry_avoided_kg": 10.01,
+      "shrink_avoided_kg": 22.88
+    }
+  ]
+}

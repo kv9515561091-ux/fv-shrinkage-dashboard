@@ -1,0 +1,23 @@
+dimension,cut_value,picks,violations,mean_gap_days,compliance_pct
+perishable_class,Hardy,1053,456,1.97,56.7
+perishable_class,Highly Perishable,572,128,0.56,77.62
+perishable_class,Perishable,1561,431,0.97,72.39
+category,Brinjal & Cucurbit,795,232,1.06,70.82
+category,Bulb & Stem,639,287,2.13,55.09
+category,Fruit,610,216,1.51,64.59
+category,Leafy Greens,572,128,0.56,77.62
+category,Root Vegetables,570,152,0.81,73.33
+storage_zone,Ambient Ventilated,1371,511,1.63,62.73
+storage_zone,Chilled 0-4C,719,190,0.75,73.57
+storage_zone,Chilled 2-6C,776,225,1.09,71.01
+storage_zone,Chilled 8-10C,320,89,0.89,72.19
+shift,Shift A (05:00-13:00),1094,297,1.05,72.85
+shift,Shift B (13:00-21:00),1060,309,1.15,70.85
+shift,Shift C (21:00-05:00),1032,409,1.5,60.37
+day_of_week,Friday,543,179,1.63,67.03
+day_of_week,Monday,495,138,0.68,72.12
+day_of_week,Saturday,549,187,1.47,65.94
+day_of_week,Sunday,538,187,1.17,65.24
+day_of_week,Thursday,543,184,1.83,66.11
+day_of_week,Tuesday,365,103,0.54,71.78
+day_of_week,Wednesday,153,37,0.4,75.82

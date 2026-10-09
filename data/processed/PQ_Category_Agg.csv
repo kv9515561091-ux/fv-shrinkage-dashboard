@@ -1,0 +1,8 @@
+category,perishable_class,qty_received_kg,qty_sold_kg,qty_shrunk_kg,shrink_pct,shrink_value_inr,sell_through_pct,received_value_inr,batches,shrink_exp_kg,shrink_hdl_kg,shrink_ovr_kg,shrink_qlt_kg,shrink_tmp_kg,shrink_pil_kg
+Leafy Greens,Highly Perishable,3362.6,2453.4,797.9400000000002,23.73,16083.79,72.96,67778.721,35,746.97,5.94,0.0,0.0,42.32,2.71
+Fruit,Perishable,2897.1,2261.79,592.36,20.45,16007.93,78.07,78291.19900000001,14,528.75,6.84,0.0,0.0,51.269999999999996,5.5
+Bulb & Stem,Hardy,17550.9,16745.97,52.31,0.3,1470.75,95.41,493462.052,24,0.0,13.32,0.0,0.0,0.0,38.99
+Brinjal & Cucurbit,Perishable,6755.0,6671.22,28.79,0.43,831.7,98.76,195142.428,30,0.0,15.18,0.0,0.0,0.07,13.54
+Root Vegetables,Perishable,2437.1,2421.48,8.190000000000001,0.34,179.11,99.36,53297.464,16,0.0,3.87,0.0,0.0,0.12,4.2
+Fruit,Hardy,1304.9,1301.82,1.55,0.12,174.45,99.76,146866.239,12,0.0,0.0,0.0,0.0,0.0,1.55
+Root Vegetables,Hardy,505.5,504.01,0.6699999999999999,0.13,16.89,99.71,12744.445,4,0.0,0.29,0.0,0.0,0.0,0.38

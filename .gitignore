@@ -20,3 +20,8 @@ Thumbs.db
 # Analysis scratch
 .ipynb_checkpoints/
 *.ipynb_checkpoints*
+
+# COM test artefacts
+*_pqtest*.xlsx
+*_comtest*.py
+*_trace*.py

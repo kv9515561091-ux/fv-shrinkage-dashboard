@@ -249,3 +249,26 @@ MIT — see [LICENSE](LICENSE).
 All data is synthetic. Prices reference publicly reported All-India mandi
 and retail averages and the loss benchmarks reference published
 supply-chain studies; neither is a proprietary dataset.
+
+---
+
+## Related projects
+
+Three companion projects on the same problem — how much of the gap between
+farm-gate cost and shelf price is recoverable in Indian F&V retail. They share
+a commodity master, a lane (Bengaluru PC → dark store, 62 km), and a set of
+grounded price and loss benchmarks. Each is a standalone repository; clone
+only the one you want.
+
+| project | question it answers | try it |
+| --- | --- | --- |
+| [transit-spoilage-anova](https://github.com/kv9515561091-ux/transit-spoilage-anova) | Which handling method extends shelf life? Finds that onions must **not** be chilled — worth ₹28.6 lakh/year on one lane | `pip install -r requirements.txt && python analysis/generate_experiment.py && python analysis/anova_analysis.py` |
+| [mandi-margin-simulator](https://github.com/kv9515561091-ux/mandi-margin-simulator) | On any given day, is this line still worth buying? Node CLI, zero dependencies | `git clone https://github.com/kv9515561091-ux/mandi-margin-simulator.git && cd mandi-margin-simulator && node src/index.js simulate --days 30 --seed 99` |
+| [fpo-sourcing-automation](https://github.com/kv9515561091-ux/fpo-sourcing-automation) | Can field data become a purchase-order line a buyer can act on? Apps Script; runs offline via a Python mirror | `python samples/generate_samples.py && python -m unittest discover -s samples` |
+
+The connection worth noting: this project finds that **57.3% of expiry is a
+picking-order problem**. The ANOVA project then asks whether better handling
+would have helped instead — and concludes temperature, not handling
+discipline, is the dominant lever. Read together they say the same loss needs
+two different fixes, which is the opposite of what a single-dimension
+investigation would have recommended.

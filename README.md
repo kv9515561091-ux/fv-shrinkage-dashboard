@@ -10,6 +10,34 @@ re-running the same week with the suspected cause removed.
 
 ---
 
+## Start here
+
+**The workbook is already built and committed.** Download
+[`fv_shrinkage_dashboard.xlsx`](fv_shrinkage_dashboard.xlsx) from this repo and
+open it — you get 4 live PivotTables, 7 embedded Power Query definitions, and a
+data dictionary, with no setup at all.
+
+<details>
+<summary>If you would rather rebuild it from source</summary>
+
+```bash
+pip install -r requirements.txt          # Python 3.9+; Excel build also needs Windows
+python scripts/generate_data.py          # simulate the week      -> data/raw/
+python scripts/analyze.py                # KPIs + counterfactual  -> data/processed/, reports/
+python scripts/make_screenshots.py       # dashboard views        -> docs/screenshots/
+python scripts/build_workbook.py         # assemble the .xlsx     -> fv_shrinkage_dashboard.xlsx
+```
+
+</details>
+
+**Platform note:** the first three commands run on any OS. `build_workbook.py`
+needs **Windows + desktop Excel**, because it drives Excel through COM to
+create the PivotTables. On macOS or Linux it will fail at stage 2 with a COM
+error — that is the only script here with a platform requirement, and the
+committed workbook exists precisely so you do not have to run it.
+
+---
+
 ## Executive summary
 
 A regional processing centre received **49,438 kg** of fresh produce across
@@ -168,11 +196,11 @@ number in this README exactly.
 
 ---
 
-## Running it
+## Rebuilding the workbook
+
+The full pipeline, if you want to regenerate everything from seed:
 
 ```bash
-pip install -r requirements.txt
-
 python scripts/generate_data.py       # simulate the week          -> data/raw/
 python scripts/analyze.py             # KPIs + counterfactual      -> data/processed/, reports/
 python scripts/make_screenshots.py    # dashboard views            -> docs/screenshots/
@@ -196,6 +224,12 @@ screenshots work anywhere.
 > machine.
 
 ---
+
+## Requirements
+
+Python 3.9+ (developed and tested on 3.13). `pandas`, `numpy`, `openpyxl` and
+`matplotlib` via `pip install -r requirements.txt`; `pywin32` only matters for
+the workbook build, which additionally needs Windows + desktop Excel.
 
 ## Layout
 
